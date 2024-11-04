@@ -13,6 +13,20 @@
 Ermöglicht das Iterieren durch ein Objekt, was ohne IEnumerable nicht möglich wäre (Siehe 1).
 Zudem ermöglicht es die Verwendung von Funktionen wie z.B.: First()(Siehe 2)
 
+### IDisposable
+
+### IQueryable<T>
+
+### IComparable<T> & IComparer<T>
+
+### IEquatable<T> & IEqualityComparer<T>
+
+### IList<T>
+
+### ICollection<T>
+
+### IDictionary<T,K>
+
 ## [Delegate](https://learn.microsoft.com/de-de/dotnet/csharp/delegates-overview)
 
 Delegate sind [Referenztypen](/Basics/#referenztyp)

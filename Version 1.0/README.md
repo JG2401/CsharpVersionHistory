@@ -1,7 +1,7 @@
 # Version 1.0
 
 - [German](https://learn.microsoft.com/de-de/dotnet/csharp/whats-new/csharp-version-history?source=recommendations#c-version-10-1)
-- [Englisch](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history?source=recommendations#c-version-10-1)
+- [English](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history?source=recommendations#c-version-10-1)
 
 ## [Struct](https://learn.microsoft.com/de-de/dotnet/csharp/language-reference/builtin-types/struct)
 

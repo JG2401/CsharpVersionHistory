@@ -8,14 +8,32 @@
 ## [Interface](https://learn.microsoft.com/de-de/dotnet/csharp/fundamentals/types/interfaces)
 
 
-### IEnumerable
+### IEnumerable & IQueryable
+
+#### IEnumerable
 
 Ermöglicht das Iterieren durch ein Objekt, was ohne IEnumerable nicht möglich wäre (Siehe 1).
 Zudem ermöglicht es die Verwendung von Funktionen wie z.B.: First()(Siehe 2)
 
-### IDisposable
+##### IEnumerable-Beispiel
 
-### IQueryable<T>
+```csharp
+IEnumerable<Product> products = myORM.GetProducts();
+var productsOver25 = products.Where(p => p.Cost >= 25.00);
+//Query: SELECT * FROM Products
+```
+#### IQueryable
+
+Der Unterschied zwischen IEnumerable und IQueryable ist der, dass IEnumerable alle Daten lädt und diese selbst filtert. IQueryable filtert direkt in der Abfrage
+
+##### IQueryable-Beispiel
+```csharp
+IQueryable<Product> products = myORM.GetQueryableProducts();
+var productsOver25 = products.Where(p => p.Cost >= 25.00);
+//Query: SELECT * FROM Products WHERE Cost >= 25
+```
+
+### IDisposable
 
 ### IComparable<T> & IComparer<T>
 

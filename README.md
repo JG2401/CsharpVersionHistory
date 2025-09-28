@@ -20,6 +20,12 @@ Die Geschichte von C#
 
 ## [Version 7.0](Version7.0/README.md)
 
+### [Version 7.1](Version7.1/README.md)
+
+### [Version 7.2](Version7.2/README.md)
+
+### [Version 7.3](Version7.3/README.md)
+
 ## [Version 8.0](Version8.0/README.md)
 
 ## [Version 9.0](Version9.0/README.md)
@@ -27,3 +33,7 @@ Die Geschichte von C#
 ## [Version 10.0](Version10.0/README.md)
 
 ## [Version 11.0](Version11.0/README.md)
+
+## [Version 12.0](Version12.0/README.md)
+
+## [Version 13.0](Version13.0/README.md)
